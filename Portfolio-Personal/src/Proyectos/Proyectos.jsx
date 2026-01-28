@@ -10,7 +10,7 @@ const Proyectos = () => {
           <h1>Mis Proyectos</h1>
         </section>
         <section className='section-text'>
-          <a>Aca hablo un poco bastantes de mis proyects favs, aunque no sean muchos ni esten tan sarpados, a mi mg y me costaron realizarlos-.</a>
+          <a>Algunos de los proyectos que se pueden encontrar en el portfolio:</a>
         </section>
         <section className='section-group-cars'>
           <Cards Creados ={ Creados } ></Cards>

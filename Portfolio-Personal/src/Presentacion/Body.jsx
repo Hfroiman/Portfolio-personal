@@ -8,7 +8,9 @@ const Body = () => {
           <div><h1 className='titulo'>WEB DEVELOPER</h1></div>
         </section>
         <section className='body-text'>
-          <p>Soy desarrollador web con formación en ingeniería biomédica y experiencia previa en docencia. Mis herramientas de confianza son React para el frontend y Django para el backend, y disfruto el diseño y arquitectura de proyectos. Me inspira el aprendizaje continuo y la oportunidad de contribuir en proyectos con impacto real.</p>
+          <p>Soy Froiman Hernán, Tecnico en Programador recibido en la UTN y desarrollador en formación, enfocado en frontend con React.js y backend con .NET.
+
+Me interesa seguir creciendo como desarrollador y participar en proyectos que me permitan aplicar buenas prácticas y aprender nuevas tecnologías.</p>
         </section>
         <section className='body-btnera'>
           <a href="#Proyectos" className="body-btn1">Ver proyectos</a>

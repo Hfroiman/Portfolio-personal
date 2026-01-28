@@ -9,7 +9,7 @@ const Contacto = () => {
         window.open(url, "_blank", "noopener,noreferrer");
     }
   return (
-    <div id='contact'>
+    <div className='contact' id='contact'>
         <h2>Gracias por haber visitado mi portafolio</h2>
         <p>Si crees que mi perfil puede encajar en tu equipo, estaré encantado de conversar.</p>
         <section className='media'>
