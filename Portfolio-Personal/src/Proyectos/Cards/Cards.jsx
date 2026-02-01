@@ -67,7 +67,6 @@ const Cards = ({ Creados }) => {
                                 }
                             </section>
                             <div className='card-botonera'>
-                                <a href="#" className="card-botones"><img src='../public/git.png' className="card-img-top" alt="..."></img>  Codigo</a>
                                 <button type="button" className="card-botones" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={ (e) => modal( e, pr.id) }>
                                     Ver mas +
                                 </button>
