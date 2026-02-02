@@ -14,18 +14,19 @@ const Cards = ({ Creados }) => {
     
     function modal (e, id){
         e.preventDefault();
+        const idSelecionado =id-min;
 
         const title = document.getElementById("staticBackdropLabel");
-        title.innerText = Creados[id-min].title;
+        title.innerText = Creados[idSelecionado].title;
 
         const obs = document.getElementById("obs");
-        obs.innerText = Creados[id-min].observaciones;
+        obs.innerText = Creados[idSelecionado].observaciones;
         
-        setTecnologias([...Creados[id - min].tecnologias]);
-        setmaxImagenes(Creados[id-min].img);
+        setTecnologias([...Creados[idSelecionado].tecnologias]);
+        setmaxImagenes(Creados[idSelecionado].img);
         setindiceProyecto(id);
         setindiceCantImg(min);
-        setLink(Creados[id-min].enlacegit);
+        setLink(Creados[idSelecionado].enlacegit);
     }
 
     function next (e){
