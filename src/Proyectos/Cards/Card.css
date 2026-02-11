@@ -93,6 +93,17 @@
     max-width: 25px;
 }
 
+/* Desktop */
+@media (max-width: 1366px) {
+    .group-cards{
+        width: 1000px;
+    }
+    .card{
+        width: 23rem;
+    }
+}
+
+
 
 /********************   MODAL  **************************/
 
@@ -199,4 +210,9 @@
 
 .carousel-control-prev-icon{
     background-color: black;
+}
+
+/* Desktop */
+@media (min-width: 1350px) {
+
 }

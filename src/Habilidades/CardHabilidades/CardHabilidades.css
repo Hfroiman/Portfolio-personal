@@ -59,3 +59,16 @@
 .card-body-list{
     width: 250px;
 }
+/* Desktop */
+@media (max-width: 1366px) {
+    .groupcard {
+        height: 600px;
+        width: 1350px;
+    }
+    .groupcard .card {
+        width: 15rem;
+    }
+    .card-body-list{
+        width: 175px;
+    }
+}

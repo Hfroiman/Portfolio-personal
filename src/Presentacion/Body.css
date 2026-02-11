@@ -28,7 +28,6 @@
   100% { opacity: 0; }
 }
 
-
 .body-text{
     width: 80%;
     font-family: "Oswald", sans-serif;
@@ -92,4 +91,17 @@
   background-color: rgb(29, 121, 75);
   transform: translateY(-3px);
   border: 4px solid rgb(38, 112, 75);
+}
+
+/* Desktop */
+@media (max-width: 1366px) {
+  .body2{
+    height: 600px;
+    width: 95%;
+  }
+
+  .body .titulo{
+    font-size: 55px;
+    color: rgb(240, 248, 255);
+  }
 }
