@@ -73,3 +73,17 @@
         font-size: 22px;
     }
 }
+
+/* Cel */
+@media (max-width: 1024px) {
+    .header-sections {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 95px;
+    width: 100%;
+    }
+    .header-sections h3 {
+        font-size: 22px;
+    }
+}

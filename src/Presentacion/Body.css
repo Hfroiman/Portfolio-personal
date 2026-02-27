@@ -105,3 +105,16 @@
     color: rgb(240, 248, 255);
   }
 }
+
+/* Cel */
+@media (max-width: 1024px) {
+    .body2{
+    height: 1366px;
+    width: 70%;
+  }
+
+  .body .titulo{
+    font-size: 55px;
+    color: rgb(240, 248, 255);
+  }
+}

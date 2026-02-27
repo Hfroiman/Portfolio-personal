@@ -25,3 +25,13 @@ h1{
         font-size: 35px;
     }
 }
+
+/* Cel */
+@media (max-width: 1024px) {
+    #habilidades{
+        width: 1024px;
+    }
+    h1{
+        font-size: 35px;
+    }
+}

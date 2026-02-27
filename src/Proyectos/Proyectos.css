@@ -82,3 +82,23 @@
             margin-top: 5px;
         }
 }
+
+/* Cel */
+@media (max-width: 1024px) {
+    .Proyectos-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1466px;
+        width: 1024px;
+        background-color: #1b263b;
+        justify-content: center;
+    }
+    .section-group-card{
+        width: 1000px;
+    }
+    .section-text a{
+        font-size: 24px;
+        margin-top: 5px;
+    }
+}

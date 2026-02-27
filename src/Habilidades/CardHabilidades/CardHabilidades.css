@@ -72,3 +72,11 @@
         width: 175px;
     }
 }
+
+/* Desktop */
+@media (max-width: 1024px) {
+    .groupcard {
+        height: 600px;
+        width: 1010px;
+    }
+}
