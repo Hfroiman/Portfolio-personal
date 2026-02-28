@@ -54,3 +54,32 @@
   transform: translateY(-3px);
   border: 4px solid #69b2e6;
 }
+
+@media (max-width: 800px) {
+    .contact h2{
+        font-size: 25px;
+    }
+    .contact p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 412px) {
+    .media{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contact h2 {
+        font-size: 15px;
+    }
+    .contact p {
+        max-width: 410px;
+        font-size: 10px;
+    }
+    .Contacto-btn1 {
+        max-block-size: min-content;
+        margin-top: 8px;
+    }
+}

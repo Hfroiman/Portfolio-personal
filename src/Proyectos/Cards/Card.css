@@ -212,7 +212,11 @@
     background-color: black;
 }
 
-/* Desktop */
-@media (min-width: 1350px) {
+@media (max-width: 800px) {
+    .group-cards {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
 
 }

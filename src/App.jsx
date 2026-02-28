@@ -1,4 +1,4 @@
-import Header from './Presentacion/Header'
+import Header from './Header/Header.jsx'
 import Body from './Presentacion/Body'
 import Proyectos from './Proyectos/Proyectos.jsx'
 import Habilidades from './Habilidades/Habilidades.jsx'

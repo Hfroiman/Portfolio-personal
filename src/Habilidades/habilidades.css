@@ -27,9 +27,9 @@ h1{
 }
 
 /* Cel */
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
     #habilidades{
-        width: 1024px;
+        width: auto;
     }
     h1{
         font-size: 35px;

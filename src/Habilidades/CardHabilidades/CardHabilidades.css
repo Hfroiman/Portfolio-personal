@@ -74,9 +74,14 @@
 }
 
 /* Desktop */
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
     .groupcard {
-        height: 600px;
-        width: 1010px;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 }
