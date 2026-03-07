@@ -83,7 +83,7 @@
         }
 }
 
-/* Cel */
+/* laptopPequeña */
 @media (max-width: 800px) {
     .Proyectos-main{
         display: flex;
@@ -92,12 +92,10 @@
         justify-content: center;
         align-items: center;
         height: auto;
-        width: 600px;
         background-color: #1b263b;
         justify-content: center;
     }
     .section-group-card{
-        width: 1000px;
     }
     .section-text a{
         font-size: 24px;

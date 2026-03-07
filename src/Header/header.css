@@ -73,7 +73,7 @@
 /* laptot pequeña */
 @media (max-width: 800px) {
     .header{
-        max-width: 800px
+        /*Parece que nada es mejor*/
     }
     .header-title{
         display: flex;
@@ -88,7 +88,7 @@
     }
 }
 
-/* laptot pequeña */
+/* cel  */
 @media (max-width: 412px) {
         .header{
         max-width: 412px

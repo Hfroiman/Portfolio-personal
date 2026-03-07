@@ -9,6 +9,9 @@
     margin-bottom: 0%;
 }
 @media (max-width: 800px) {
+    .footer{
+        width: 900px;
+    }
     .footer p{
         display: flex;
         justify-content: center;
@@ -18,5 +21,8 @@
 @media (max-width: 412px) {
     .footer p{
         font-size: 12px;
+    }
+    .footer{
+        width: 412px;
     }
 }
