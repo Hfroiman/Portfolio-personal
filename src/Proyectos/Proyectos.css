@@ -94,8 +94,7 @@
         height: auto;
         background-color: #1b263b;
         justify-content: center;
-    }
-    .section-group-card{
+        width: 800px;
     }
     .section-text a{
         font-size: 24px;

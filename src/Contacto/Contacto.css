@@ -57,7 +57,8 @@
 
 @media (max-width: 800px) {
     #contact{
-        width: 900px;
+        width: auto;
+        height: 190px;
     }
     .contact h2{
         font-size: 25px;

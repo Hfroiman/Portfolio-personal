@@ -19,17 +19,17 @@ h1{
 /* Desktop */
 @media (max-width: 1366px) {
     #habilidades{
-        width: 1350px;
+        width: auto;
     }
     h1{
         font-size: 35px;
     }
 }
 
-/* Cel */
+/* Laptop Peq */
 @media (max-width: 800px) {
     #habilidades{
-        width: 900px;
+        width: auto;
     }
     h1{
         font-size: 35px;
