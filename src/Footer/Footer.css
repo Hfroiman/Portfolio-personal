@@ -8,24 +8,3 @@
     color: rgb(240, 248, 255);
     margin-bottom: 0%;
 }
-@media (max-width: 800px) {
-    #contact{
-        width: auto;
-    }
-    .footer{
-        width: auto;
-    }
-    .footer p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media (max-width: 412px) {
-    .footer p{
-        font-size: 12px;
-    }
-    .footer{
-        width: 412px;
-    }
-}

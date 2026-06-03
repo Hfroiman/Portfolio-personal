@@ -92,19 +92,6 @@
     max-height: 25px;
     max-width: 25px;
 }
-
-/* Desktop */
-@media (max-width: 1366px) {
-    .group-cards{
-        width: 1000px;
-    }
-    .card{
-        width: 23rem;
-    }
-}
-
-
-
 /********************   MODAL  **************************/
 
 .modal-dialog{
@@ -210,22 +197,4 @@
 
 .carousel-control-prev-icon{
     background-color: black;
-}
-
-@media (max-width: 800px) {
-    .group-cards {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-}
-
-@media (max-width: 412px) {
-    .modal-dialog{
-        height: 1200px;
-    }
-}
-
-@media (max-width: 800px) {
 }
