@@ -1,16 +1,32 @@
-# React + Vite
+🚀 Portfolio Personal - React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+(https://mi-ecommerce-react.vercel.app/
 
-Currently, two official plugins are available:
+Portfolio personal desarrollado con React.js, donde presento mis proyectos, habilidades y tecnologías que estoy aprendiendo en mi camino como desarrollador web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El objetivo principal de este sitio es mostrar mi progreso, prácticas reales y proyectos personales.
 
-## React Compiler
+👨‍💻 Sobre mí
+Soy Froiman Hernán, Tecnico en Programador recibido en la UTN y desarrollador en formación, enfocado en frontend con React.js y backend con .NET.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Me interesa seguir creciendo como desarrollador y participar en proyectos que me permitan aplicar buenas prácticas y aprender nuevas tecnologías.
 
-## Expanding the ESLint configuration
+🛠️ Tecnologías utilizadas
+React.js
+JavaScript (ES6+)
+HTML5
+CSS3
+Git & GitHub
+Vite / Create React App (según corresponda)
+📂 Secciones del portfolio
+🏠 Inicio – Presentación personal
+💼 Proyectos – Proyectos desarrollados (personales y académicos)
+🧠 Habilidades – Tecnologías y herramientas
+📞 Contacto – Formas de comunicarse conmigo
+📌 Proyectos destacados
+Algunos de los proyectos que se pueden encontrar en el portfolio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 Gestor de Gastos (ASP.NET Core MVC)
+🖥️ Aplicaciones frontend con React
+🧪 Proyectos prácticos y ejercicios de aprendizaje
+Cada proyecto incluye una breve descripción y enlace a su repositorio en GitHub.
