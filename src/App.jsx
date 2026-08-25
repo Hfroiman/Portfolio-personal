@@ -1,20 +1,18 @@
-import Header from './Header/Header.jsx'
-import Body from './Presentacion/Body'
-import Proyectos from './Proyectos/Proyectos.jsx'
-import Habilidades from './Habilidades/Habilidades.jsx'
-import Contacto from './Contacto/Contacto.jsx'
+import './App.css'
 import Footer from './Footer/Footer.jsx'
-import './app.css'
+import Habilidades from './Habilidades/Habilidades.jsx'
+import Header from './Header/Header'
+import Presentacion from './Presentacion/Presentacion'
+import Proyectos from './Proyectos/Proyectos'
 
 const App = () => {
   return (
-    <div className='app'>
-      <Header />
-      <Body />
-      <Proyectos />
-      <Habilidades />
-      <Contacto />
-      <Footer />
+    <div>
+      <Header/>
+      <Presentacion/>
+      <Proyectos/>
+      <Habilidades/>
+      <Footer/>
     </div>
   )
 }

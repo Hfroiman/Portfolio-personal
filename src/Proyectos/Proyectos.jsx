@@ -4,18 +4,16 @@ import Creados from './Cards/Proyectos.js'
 
 const Proyectos = () => {
   return (
-    <div id="Proyectos">
-      <div className='Proyectos-main'>
-        <section className='section-titulo'>
-          <h1>Mis Proyectos</h1>
+    <div className='proyectos' id='Proyectos'>
+        <section className='proyectos-titulo'>
+            <a >Mis Proyectos</a>
         </section>
-        <section className='section-text'>
-          <a>Algunos de los proyectos que se pueden encontrar en el portfolio:</a>
+        <section className='proyectos-comentario'>
+            <a>Algunos de los proyectos que se pueden encontrar en mi repositorio de Github</a>
         </section>
-        <section className='section-group-cars'>
-          <Cards Creados ={ Creados } ></Cards>
+        <section className='proyectos-cards'>
+           <Cards Creados ={ Creados } ></Cards>
         </section>
-      </div>
     </div>
   )
 }

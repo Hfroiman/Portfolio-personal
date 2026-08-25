@@ -1,12 +1,15 @@
-import CardHabilidades from './CardHabilidades/CardHabilidades'
-import './habilidades.css'
-import habilidades from './habilidades.js'
+import './Habilidades.css'
+import CardHabilidades from './CardsHabilidades/CardHabilidades'
+import habilidades from './Habilidades.js'
 
 const Habilidades = () => {
   return (
-    <div id='habilidades'>
-      <h1>Habilidades tecnicas</h1>
-        <CardHabilidades habilidades={habilidades}></CardHabilidades>
+    <div className='habilidades' id='Habilidades'>
+        <section className='habilidades-title'>Habilidades Tecnicas</section>
+        
+        <section className='habilidades-Cards'>
+           <CardHabilidades habilidades={habilidades}></CardHabilidades>
+        </section>
     </div>
   )
 }

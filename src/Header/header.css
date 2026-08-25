@@ -1,51 +1,93 @@
-    .header{
-        background-color: #1b263b;
-        height: max-content;
-        z-index: 500;
+.header {
+    height: 5rem;
+    background-color: #202b3f;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-nombre {
+    padding-top: 3%;
+}
+
+.header-nombre a {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 60;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+    font-size: 3rem;
+    color: rgb(240, 248, 255);
+}
+
+.header-btns {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-btns a {
+    color: rgb(240, 248, 255);
+    margin: 2%;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/*
+MOVIL
+*/
+@media (min-width: 480px) {
+    .header {
+        height: 6rem;
     }
 
-    .header-sections{
-        background-color: #1b263b;
+    .header-nombre {
+        padding-top: 2%;
+    }
+
+    .header-nombre a {
+        font-size: 2rem;
+    }
+}
+
+/*NOTEBOOK*/
+@media (min-width: 1366px) {
+    .header {
+        height: 7rem;
         display: flex;
+        align-items: center;
         flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        margin: 0 auto;
     }
 
-    .header-title{
-
-    }
-
-    .header-sections h3 {
-        font-family: "Merriweather", serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-variation-settings:
-            "width" 100%;
-        font-size: 35px;
-        color: rgb(240, 248, 255);
-    }
-
-    .header-btnera{
-        margin-right: 15%;
+    .header-nombre {
+        padding-top: 0%;
         display: flex;
-        font-family: "Merriweather", serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-variation-settings:"width" 100;
-        text-decoration: none;
+        width: 100%;
+        justify-content: center;
     }
 
-    a {
-        text-decoration: none;
-        color: rgb(240, 248, 255);
-        margin: 5%;
-        font-size: 25px;
+    .header-nombre a {
+        font-size: 3rem;
+
     }
 
-    a:hover {
-        text-decoration: underline;
+    .header-btns {
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
+
+    .header-btns a {
+        font-size: 2rem;
+    }
+}
+
+/*DESKTOOP */
