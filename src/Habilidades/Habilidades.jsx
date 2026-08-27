@@ -1,4 +1,4 @@
-import './Habilidades.css'
+import "./Habilidades.css"
 import CardHabilidades from './CardsHabilidades/CardHabilidades'
 import habilidades from './Habilidades.js'
 
