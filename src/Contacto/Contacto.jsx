@@ -13,7 +13,7 @@ const Contacto = ({ obj }) => {
             <div className='contacto-group-btnes'>
                 {
                     obj.map((pr) =>
-                        <button className='Contacto-btn' onClick={(e)=>{redireccion(e, pr.link)}}> {pr.name} </button>
+                        <button className='Contacto-btn' key={pr.id} onClick={(e)=>{redireccion(e, pr.link)}}> {pr.name} </button>
                     )
                 }
             </div>
