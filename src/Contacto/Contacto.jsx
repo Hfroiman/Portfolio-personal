@@ -7,7 +7,7 @@ const Contacto = ({ obj }) => {
     }
 
     return (
-        <section className='Contacto'>
+        <section className='Contacto' id='Contacto'>
             <h1>Gracias por haber visitado mi portafolio</h1>
             <p>Si crees que mi perfil puede encajar en tu equipo, estaré encantado de conversar.</p>
             <div className='contacto-group-btnes'>

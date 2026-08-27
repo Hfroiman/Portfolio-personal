@@ -9,6 +9,7 @@ const Header = () => {
         <section className='header-btns'>
             <a href="#Proyectos" >Proyectos</a>
             <a href="#Habilidades" >Habilidades</a>
+            <a href="#Contacto" >Contacto</a>
         </section>
     </div>
   )
