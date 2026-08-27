@@ -1,4 +1,3 @@
-import './App.css'
 import Contacto from './Contacto/Contacto.jsx'
 import Footer from './Footer/Footer.jsx'
 import Habilidades from './Habilidades/Habilidades.jsx'
