@@ -20,12 +20,14 @@
 
 @media (max-width: 480px) {
     .habilidades {
-        background-color: aquamarine;
-        height: auto;
+        height: 150rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .groupcard {
         display: flex;
         height: 18rem;

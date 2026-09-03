@@ -1,6 +1,6 @@
 .proyectos {
     background-color: #1b263b;
-    height: 90rem;
+    height: 98rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -16,6 +16,10 @@
     color: rgb(240, 248, 255);
 }
 
+.proyectos-titulo a {
+    font-size: 3rem;
+}
+
 .proyectos-comentario {
     padding-top: 6%;
     padding-left: 14%;
@@ -25,24 +29,25 @@
     font-weight: 700;
     font-style: normal;
     color: rgb(240, 248, 255);
-    font-size: 70%;
+    font-size: 2rem;
 }
 
 .proyectos-cards {
     padding-top: 6%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     .proyectos {
         background-color: #1b263b;
-        height: 140rem;
+        height: 170rem;
     }
 }
 
-@media (min-width: 1366px) {
+@media (max-width: 1366px) {
 
     .proyectos {
         height: 100%;

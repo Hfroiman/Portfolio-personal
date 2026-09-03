@@ -43,9 +43,12 @@
 }
 
 @media (max-width: 480px) {
-    .groupcard .card {
-        width: 17rem;
-        height: 18rem;
+    .groupcard{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 25rem;
     }
 
     .card-body-logo {
@@ -67,9 +70,12 @@
         align-items: flex-start;
         width: 80%;
     }
+    .card-habilidades{
+        margin: 1rem;
+    }
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .groupcard {
         display: flex;
         flex-direction: row;
@@ -106,7 +112,7 @@
         width: 80%;
     }
 
-    .card-body-list p{
+    .card-body-list p {
         font-size: 1.2rem;
     }
 
