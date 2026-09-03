@@ -106,38 +106,6 @@
     max-width: 25px;
 }
 
-@media (max-width: 480px) {
-    .card {
-        width: 22rem;
-    }
-
-    .card-img-top {
-        max-height: 40%;
-    }
-
-    .card-title {
-        font-size: 1.7rem;
-        width: 21rem;
-    }
-
-    .card-leng {
-        font-size: 1rem;
-    }
-
-    .card-tecnologias {
-        width: 95%;
-        padding-top: 0%;
-    }
-
-    .card-botonera {
-        padding-top: 0%;
-    }
-
-    .card-botones {
-        font-size: 1.1rem;
-    }
-
-}
 
 /*NOTEBOOK*/
 @media (max-width: 1366px) {
@@ -192,4 +160,37 @@
         font-size: 100%;
         margin-top: 1rem;
     }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 22rem;
+    }
+
+    .card-img-top {
+        max-height: 40%;
+    }
+
+    .card-title {
+        font-size: 1.7rem;
+        width: 21rem;
+    }
+
+    .card-leng {
+        font-size: 1rem;
+    }
+
+    .card-tecnologias {
+        width: 95%;
+        padding-top: 0%;
+    }
+
+    .card-botonera {
+        padding-top: 0%;
+    }
+
+    .card-botones {
+        font-size: 1.1rem;
+    }
+
 }

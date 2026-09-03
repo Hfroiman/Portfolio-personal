@@ -46,7 +46,7 @@ MOVIL
 */
 @media (min-width: 480px) {
     .header {
-        height: 6rem;
+        height: 7rem;
     }
 
     .header-nombre {
